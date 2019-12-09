@@ -9924,11 +9924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
+      "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
       "projectName": "EmployeeManagement.Test",
-      "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
+      "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
       "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-      "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\obj\\",
+      "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9947,11 +9947,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
-              "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
+            "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
+              "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
             },
-            "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
-              "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj"
+            "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
+              "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj"
             }
           }
         }

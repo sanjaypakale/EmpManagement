@@ -6141,11 +6141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
+      "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
       "projectName": "EmployeeManagement.Core",
-      "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
+      "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
       "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-      "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\obj\\",
+      "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6164,11 +6164,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
-              "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+            "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+              "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
             },
-            "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj": {
-              "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj"
+            "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj": {
+              "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj"
             }
           }
         }

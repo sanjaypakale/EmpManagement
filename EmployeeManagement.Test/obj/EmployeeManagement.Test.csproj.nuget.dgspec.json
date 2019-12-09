@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj": {}
+    "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj": {}
   },
   "projects": {
-    "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
+    "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
+        "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
         "projectName": "EmployeeManagement.Core",
-        "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
+        "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
         "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\obj\\",
+        "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
-                "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+              "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+                "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
               },
-              "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj": {
-                "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj"
+              "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj": {
+                "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+    "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+        "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
         "projectName": "EmployeeManagement.Data",
-        "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+        "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
         "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\obj\\",
+        "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -145,14 +145,14 @@
         }
       }
     },
-    "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj": {
+    "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
+        "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
         "projectName": "EmployeeManagement.Test",
-        "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
+        "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\EmployeeManagement.Test.csproj",
         "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Test\\obj\\",
+        "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -171,11 +171,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
-                "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
+              "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
+                "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
               },
-              "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
-                "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj"
+              "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
+                "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj"
               }
             }
           }
@@ -232,14 +232,14 @@
         }
       }
     },
-    "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
+    "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
+        "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
         "projectName": "EmployeeManagement.UI",
-        "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
+        "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
         "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.UI\\obj\\",
+        "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -258,11 +258,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
-                "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
+              "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
+                "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
               },
-              "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
-                "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+              "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+                "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
               }
             }
           }
@@ -339,14 +339,14 @@
         }
       }
     },
-    "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj": {
+    "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
+        "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
         "projectName": "EmployeeManagement.ViewModel",
-        "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
+        "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
         "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\obj\\",
+        "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

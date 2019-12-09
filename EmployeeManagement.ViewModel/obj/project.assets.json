@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
+      "projectUniqueName": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
       "projectName": "EmployeeManagement.ViewModel",
-      "projectPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
+      "projectPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\EmployeeManagement.ViewModel.csproj",
       "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-      "outputPath": "E:\\Learning\\dotnetcore\\EmpManagement1\\EmployeeManagement.ViewModel\\obj\\",
+      "outputPath": "E:\\Learning\\EmpManagement\\EmpManagement\\EmployeeManagement.ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
