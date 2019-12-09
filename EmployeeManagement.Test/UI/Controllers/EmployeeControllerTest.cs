@@ -1,12 +1,11 @@
 using EmployeeManagement.Core.Services;
 using EmployeeManagement.Data.Models;
-using EmployeeManagement.UI.Controllers;
 using EmployeeManagement.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
 using System.Threading.Tasks;
 using Xunit;
+using EmployeeManagement.UI.Controllers;
 
 namespace EmployeeManagement.Test.UI.Controllers
 {
