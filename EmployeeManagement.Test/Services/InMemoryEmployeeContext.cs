@@ -19,13 +19,15 @@ namespace EmployeeManagement.Test.Services
             EmployeeContext = new EmployeeContext(options);
 
             EmployeeContext.Employees.Add(new Employee { Id = 1, FirstName = "Sanjay", LastName = "Pakale", Address = "Action", EmployeeCode = "i706089" });
+            EmployeeContext.Employees.Add(new Employee { Id = 2, FirstName = "Harsha", LastName = "Pakale", Address = "Chandur", EmployeeCode = "xxeexx2" });
+
 
             EmployeeContext.SaveChanges();
         }
 
         public void Dispose()
         {
-            EmployeeContext.Dispose();
+            EmployeeContext?.Dispose();
         }
     }
 }
