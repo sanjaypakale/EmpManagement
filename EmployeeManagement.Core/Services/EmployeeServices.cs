@@ -34,8 +34,11 @@ namespace EmployeeManagement.Core.Services
                 Address = employeeViewModel.Address,
                 EmployeeCode = employeeViewModel.EmployeeCode
             };
+            if (employeeModel.Id == default(int))
+                _context.Employees.Add(employeeModel);
+            else
+                _context.Update(employeeModel);
 
-            _context.Employees.Add(employeeModel);
             await _context.SaveChangesAsync();
             return employeeModel;
         }
