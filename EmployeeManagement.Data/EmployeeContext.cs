@@ -36,13 +36,13 @@ namespace EmployeeManagement.Data
 
         public override async Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
         {
-            var auditEntries = OnBeforeSaveChanges();
+            var auditEntries = await OnBeforeSaveChangesAsync();
             var result = await base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
             await OnAfterSaveChanges(auditEntries);
             return result;
         }
 
-        private List<AuditEntry> OnBeforeSaveChanges()
+        private async Task<List<AuditEntry>> OnBeforeSaveChangesAsync()
         {
             ChangeTracker.DetectChanges();
             var auditEntries = new List<AuditEntry>();
@@ -52,9 +52,11 @@ namespace EmployeeManagement.Data
                     continue;
 
                 var auditEntry = new AuditEntry(entry);
-                auditEntry.TableName =  entry.Metadata.GetTableName();
+                auditEntry.TableName = entry.Metadata.GetTableName();
                 //auditEntry.TableName = entry.Metadata.Relational().TableName;
                 auditEntries.Add(auditEntry);
+
+                var oldValues = await entry.GetDatabaseValuesAsync().ConfigureAwait(false);
 
                 foreach (var property in entry.Properties)
                 {
@@ -79,13 +81,13 @@ namespace EmployeeManagement.Data
                             break;
 
                         case EntityState.Deleted:
-                            auditEntry.OldValues[propertyName] = property.OriginalValue;
+                            auditEntry.OldValues[propertyName] = oldValues[propertyName];
                             break;
 
                         case EntityState.Modified:
                             if (property.IsModified)
                             {
-                                auditEntry.OldValues[propertyName] = property.OriginalValue;
+                                auditEntry.OldValues[propertyName] = oldValues[propertyName];
                                 auditEntry.NewValues[propertyName] = property.CurrentValue;
                             }
                             break;
